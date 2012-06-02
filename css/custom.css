@@ -1,0 +1,19 @@
+/*<div class="container">
+  <h1> Div Plop! </h1>
+  <div id="drop_area" class="span10"></div>
+</div>
+*/
+.container {}
+.container #drop_area {
+  overflow: hidden;
+  height: 400px;
+  border: 3px rgba(0, 136, 204, 0.57) solid;
+  
+/*  position: relative;*/
+}
+.container #drop_area .plopped {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
